@@ -3,7 +3,7 @@
     Plugin Name: Cryout Serious Theme Settings
     Plugin URI: https://www.cryoutcreations.eu/wordpress-plugins/serious-theme-settings
     Description: This plugin is designed to enable the themes' classic settings page functionality in our Nirvana, Parabola, Tempera and Mantra themes.
-    Version: 0.5.16
+    Version: 0.5.17
     Author: Cryout Creations
     Author URI: https://www.cryoutcreations.eu
 	License: GPLv3
@@ -14,7 +14,7 @@
 if ( !defined( 'ABSPATH' ) ) exit;
 
 class Cryout_Theme_Settings {
-	public $version = "0.5.16";
+	public $version = "0.5.17";
 	public $settings = array();
 
 	private $status = 0; // 0 = inactive, 1 = active, 2 = good theme, wrong version, 3 = wrong theme, 4 = compatibility for wp4.4, 5 = theme requires update

@@ -305,7 +305,7 @@ if ( version_compare( $this->current_theme['version'], '2.4.0', '>=' ) ) {
 				</div>
 				<div class="panel-wrap inside" style="height:200px;overflow:auto;">
 					<?php
-					$parabola_news = fetch_feed( array( 'http://www.cryoutcreations.eu/cat/wordpress-themes/parabola/feed/') );
+					$parabola_news = fetch_feed( 'https://www.cryoutcreations.eu/cat/wordpress-themes/parabola/feed/' );
 					$maxitems = 0;
 					if ( ! is_wp_error( $parabola_news ) ) {
 						$maxitems = $parabola_news->get_item_quantity( 10 );

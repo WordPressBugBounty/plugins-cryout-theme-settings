@@ -279,7 +279,7 @@ if ( version_compare( $this->current_theme['version'], '1.8.0', '>=' ) ) {
 				<h3 class="hndle"><?php _e( 'Tempera Latest News', 'tempera' ); ?></h3>
 				<div class="panel-wrap inside" style="height:200px;overflow:auto;">
 						<?php
-				$news_feed = fetch_feed( array( 'http://www.cryoutcreations.eu/cat/wordpress-themes/tempera/feed/') );
+				$news_feed = fetch_feed( 'https://www.cryoutcreations.eu/cat/wordpress-themes/tempera/feed/' );
 				$maxitems = 0;
 				if ( ! is_wp_error( $news_feed ) ) {
 					$maxitems = $news_feed->get_item_quantity( 10 );

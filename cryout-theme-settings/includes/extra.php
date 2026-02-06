@@ -31,4 +31,3 @@ if ( !defined( 'ABSPATH' ) ) exit;
 	
 <?php
 /* inline styling and scripting moved to code.js and style.css in 0.5.15 */
-?>

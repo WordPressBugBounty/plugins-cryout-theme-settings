@@ -235,7 +235,7 @@ if ( version_compare( $this->current_theme['version'], '3.3.0', '>=' ) ) {
 				</div>
 				<div class="panel-wrap inside" style="height:200px;overflow:auto;">
 					<?php
-					$mantra_news = fetch_feed( array( 'http://www.cryoutcreations.eu/cat/wordpress-themes/mantra/feed') );
+					$mantra_news = fetch_feed( 'https://www.cryoutcreations.eu/cat/wordpress-themes/mantra/feed' );
 					$maxitems = 0;
 					if ( ! is_wp_error( $mantra_news ) ) {
 						$maxitems = $mantra_news->get_item_quantity( 10 );

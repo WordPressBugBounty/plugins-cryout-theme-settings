@@ -1,10 +1,10 @@
-=== Plugin Name ===
+=== Cryout Serious Theme Settings ===
 Contributors: Cryout Creations
 Donate link: https://www.cryoutcreations.eu/donate/
 Tags: theme, admin
 Requires at least: 4.5
-Tested up to: 6.6
-Stable tag: 0.5.16
+Tested up to: 6.9
+Stable tag: 0.5.17
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -42,6 +42,11 @@ This plugin has no use and will do nothing if you do not use any of the listed t
 4. Additionally, check the plugin's status on the Appearance > Serious Theme Settings page. 
 
 == Changelog ==
+
+= 0.5.17 =
+* Fixed deprecation notice about fetching multiple feeds with single SimplePie instance (in theme news)
+* Fixed missing plugin name in readme.txt header
+* Bumped supported WordPress version to 6.9
 
 = 0.5.16 =
 * Reorganized plugin folders and files
